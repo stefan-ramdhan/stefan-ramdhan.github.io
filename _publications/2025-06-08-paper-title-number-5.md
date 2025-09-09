@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
+permalink: /publication/2025-07-EDTConf
+excerpt: 'We investigate the suitability of the ISO 23247 reference architecture for developing automotive Digital Twins through a case study.'
 date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+venue: 'International Conference on Engineering Digital Twins (EDTconf) 2025'
+paperurl: 'https://arxiv.org/abs/2508.18662'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
