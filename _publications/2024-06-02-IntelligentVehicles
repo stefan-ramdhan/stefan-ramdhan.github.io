@@ -2,9 +2,9 @@
 title: "Simulation-based Analysis of a Novel Loop-based Road Topology for Autonomous Vehicles"
 collection: publications
 category: conferences
-permalink: /publication/2024-06-IntelligentVehicles
+permalink: /publication/2024-06-02-IntelligentVehicles
 excerpt: 'We evaluate a novel road topology via a simulated comparison using SUMO and MATLAB/Simulink.'
-date: 2024-06
+date: 2024-06-02
 venue: '2024 IEEE Intelligent Vehicles Symposium'
 slidesurl: 'https://drive.google.com/file/d/1vsLhylbrpBOvVfedY5TlVjV4C49YvL-w/view?usp=sharing'
 paperurl: 'https://ieeexplore.ieee.org/document/10588578'
