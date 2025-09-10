@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "MECHTRON 4TB6 - Mechatronics Capstone Design Project"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: https://academiccalendars.romcmaster.ca/preview_course_nopop.php?catoid=53&coid=265851
+venue: "McMaster University, Computing and Software"
+date: 2024-09-01
+location: "Hamilton, Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+I guide 6 final year undergraduate capstone groups, and partake in grading activities.
