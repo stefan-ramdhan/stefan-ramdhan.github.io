@@ -8,4 +8,4 @@ date: 2024-09-01
 location: "Hamilton, Ontario"
 ---
 
-I taught weekly tutorials, and partook in grading activiites. Course content includes: Computer arithmetic and roundoff error analysis. Interpolation, integration, solving systems of linear and nonlinear equations. Eigenvalues and singular value decomposition. Numerical methods for ordinary differential equations.
+I taught weekly tutorials, and partook in grading activities. Course content includes: Computer arithmetic and roundoff error analysis. Interpolation, integration, solving systems of linear and nonlinear equations. Eigenvalues and singular value decomposition. Numerical methods for ordinary differential equations.

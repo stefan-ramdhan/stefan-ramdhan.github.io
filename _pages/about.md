@@ -11,3 +11,7 @@ I am a 2nd year Master of Applied Science (MASc) student at McMaster University,
 
 I will be applying for Ph.D. positions to begin in Fall 2026!
 
+## News
+Aug 29: Our paper "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study" gets accepted at EDTConf 2025! 
+Mar 30, 2024: Our paper "Simulation-based Analysis of a Novel Loop-based Road Topology for Autonomous Vehicles" gets accepted at IV 2024!
+
