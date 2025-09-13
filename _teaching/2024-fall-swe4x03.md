@@ -9,4 +9,5 @@ location: "Hamilton, Ontario"
 ---
 
 I taught weekly tutorials, and partook in grading activities. 
+
 **Course content**: Computer arithmetic and roundoff error analysis. Interpolation, integration, solving systems of linear and nonlinear equations. Eigenvalues and singular value decomposition. Numerical methods for ordinary differential equations.
