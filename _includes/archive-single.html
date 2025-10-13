@@ -80,26 +80,31 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %} -->
 
-    {% comment %} Start Modular Links Block {% endcomment %}
+    {% comment %} Start Modular Links Block (New format: | Link 1 | Link 2 |) {% endcomment %}
     {% assign link_items = "" %}
 
     {% if post.paperurl %}
-        {% assign link_items = link_items | append: '<a href="' | append: post.paperurl | append: '">Download Paper</a>' | append: ' | ' %}
+        {% assign link_items = link_items | append: ' | <a href="' | append: post.paperurl | append: '">Paper</a>' %}
     {% endif %}
 
     {% if post.slidesurl %}
-        {% assign link_items = link_items | append: '<a href="' | append: post.slidesurl | append: '">Download Slides</a>' | append: ' | ' %}
+        {% assign link_items = link_items | append: ' | <a href="' | append: post.slidesurl | append: '">Slides</a>' %}
     {% endif %}
 
     {% if post.codeurl %}
-        {% assign link_items = link_items | append: '<a href="' | append: post.codeurl | append: '">Code</a>' | append: ' | ' %}
+        {% assign link_items = link_items | append: ' | <a href="' | append: post.codeurl | append: '">Code</a>' %}
     {% endif %}
 
     {% if post.bibtexurl %}
-        {% assign link_items = link_items | append: '<a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' | append: ' | ' %}
+        {% assign link_items = link_items | append: ' | <a href="' | append: post.bibtexurl | append: '">Bibtex</a>' %}
     {% endif %}
 
-    {% assign final_links = link_items | remove_last: " | " %}
+    {% comment %} Add the trailing pipe if any link was successfully created {% endcomment %}
+    {% assign final_links = link_items %}
+    {% if final_links != "" %}
+        {% comment %} Appending the final pipe character {% endcomment %}
+        {% assign final_links = final_links | append: ' |' %}
+    {% endif %}
 
     {% if post.citation or final_links != "" %}
       <p>
