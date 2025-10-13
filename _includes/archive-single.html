@@ -52,7 +52,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
+    <!-- {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
@@ -78,7 +78,37 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% endif %} -->
+
+    {% comment %} Start Modular Links Block {% endcomment %}
+    {% assign link_items = "" %}
+
+    {% if post.paperurl %}
+        {% assign link_items = link_items | append: '<a href="' | append: post.paperurl | append: '">Download Paper</a>' | append: ' | ' %}
     {% endif %}
+
+    {% if post.slidesurl %}
+        {% assign link_items = link_items | append: '<a href="' | append: post.slidesurl | append: '">Download Slides</a>' | append: ' | ' %}
+    {% endif %}
+
+    {% if post.codeurl %}
+        {% assign link_items = link_items | append: '<a href="' | append: post.codeurl | append: '">Code</a>' | append: ' | ' %}
+    {% endif %}
+
+    {% if post.bibtexurl %}
+        {% assign link_items = link_items | append: '<a href="' | append: post.bibtexurl | append: '">Download Bibtex</a>' | append: ' | ' %}
+    {% endif %}
+
+    {% assign final_links = link_items | remove_last: " | " %}
+
+    {% if post.citation or final_links != "" %}
+      <p>
+        {% if post.citation %}Recommended citation: {{ post.citation }}{% endif %}
+        {% if post.citation and final_links != "" %}<br />{% endif %}
+        {{ final_links }}
+      </p>
+    {% endif %}
+    {% comment %} End Modular Links Block {% endcomment %}
 
   </article>
 </div>
