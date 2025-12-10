@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Coming soon...
+Please contact me (ramdhans@mcmaster.ca, or stefan.ramdhan1999@gmail.com) for a copy of my CV.

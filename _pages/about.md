@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Master of Applied Science (MASc) student at McMaster University studying Software Engineering. My research is on the safety of autonomous vehicles (AVs). Specifically, I am currently interested in safety frameworks for AVs that provide assurance for collision avoidance. Additionally, I am interested in validating AVs, so we can be confident they are sufficiently safe to operate around human beings.
+I am a 2nd year Master of Applied Science (MASc) student at McMaster University studying Software Engineering under the supervision of [Dr. Mark Lawford](https://experts.mcmaster.ca/people/lawford) and [Dr. Alan Wassyng](https://www.cas.mcmaster.ca/~wassyng/). My research interests are in safe autonomous robot navigation and behaviour specification. Currently, I am working on scneario-based validation for autonomous vehicles (AVs) using formal methods and semantic computer vision. I am also investigating frameworks that provide collision-avoidance guarantees for AVs such as Responsibility Sensitive Safety  (RSS), and others that enable robot behaviour specification, like Rulebooks. My overarching career goal is to enable robots to navigate in unknown and dynamic environments without harming people or property.
 
-Having been a research assistant for the past 4 years, I have learned that I want to dedicate my career to advancing science and engineering, particularly in the field of robotics. I will be applying for Ph.D. positions to begin in Fall 2026!
+Having been a research assistant for the past 4 years, I have come to find great satisfaction in conducting independent research. I will be applying for Ph.D. positions to begin in Fall 2026!
 
 ## News
-**Oct 6, 2025:** I gave a 15 minute talk at EDTconf 2025.
+**Oct 6, 2025:** I gave a 15 minute conference presentation at EDTconf 2025.
 
 **Aug 20, 2025:** Our paper "Engineering Automotive Digital Twins on Standardized Architectures: A Case Study" gets accepted at EDTconf 2025! 
 
