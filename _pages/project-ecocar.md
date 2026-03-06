@@ -11,8 +11,8 @@ Specifically, I was apart of the Connected and Automated Vehicles (CAVs) team, w
 
 Here are some images some EcoCAR events:
 
-![group photo](images/All_teams_photo.jpg)
+Here are all of the teams from the Final EcoCAR Competition in Phoenix Arizona on the Phoenix Raceway!
+![group photo](/images/All_teams_photo.jpg)
 
-Here's one from the Transportation Research Center in East Liberty, Ohio
-
-![ohio TRC](images/ohio_groupphoto.jpg)
+We went to the Transportation Research Center in East Liberty, Ohio to do some Vehicle-in-the-Loop testing:
+![ohio TRC](/images/ohio_groupphoto.jpg)
