@@ -7,10 +7,23 @@ redirect_from:
   - /researchprojects/
 ---
 
-This page currently only contains two projects from my graduate coursework.
+This page currently contains some other projects I have enjoyed working on.
 My published research can be found on the [Publications](/publications/) page.
 
 ---
+
+## [Vehicle-to-Everything (V2X) Intersection Navigation Integration](/otherprojects/ecocar/)
+
+During my undergrad, I spent 4 years on the EcoCAR Mobility Challenge. Most prominently, I led the integration of an industry-grade V2X controller into an ADAS system for a Chevrolet Blazer. 
+
+---
+
+## [MacCity: A 1/10th-scale testbed](/otherprojects/maccity/)
+
+Since 2021, I have built and maintained the infrastructure for a 1/10th-scale testbed for ADS development, which is used as a platform for research and development. The F1TENTH platform has been the testbed for my most recent [publication](https://arxiv.org/abs/2508.18662) and numerous other projects, including Lane Centering, and Cooperative Adaptive Cruise Control.
+
+---
+
 
 ## [Path Planning on SE(2) for Autonomous Vehicles](/otherprojects/path-planning-se2/)
 
