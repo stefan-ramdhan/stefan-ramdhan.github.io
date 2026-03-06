@@ -11,7 +11,7 @@ I am a 2nd year Master of Applied Science (MASc) student at McMaster University 
 
 Currently, I am working on scenario-based validation for autonomous vehicles (AVs) using formal methods (temporal logic and automata) and scene graphs. I am also investigating frameworks that provide collision-avoidance guarantees for AVs such as Responsibility Sensitive Safety (RSS), and others that enable robot behaviour specification, like Rulebooks. My overarching career goal is to enable autonomous systems to navigate in unknown and dynamic environments without harming people or property.
 
-Having been a research assistant for the past 4 years, I have come to find great satisfaction in conducting independent research. I will be applying for Ph.D. positions to begin in Fall 2026!
+Having been a research assistant for the past (nearly) 5 years, I have come to find great satisfaction in conducting independent research. I will be applying for Ph.D. positions to begin in Fall 2026!
 
 ## News
 **Oct 6, 2025:** I gave a 15 minute conference presentation at EDTconf 2025.
