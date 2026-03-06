@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Master of Applied Science (MASc) student at McMaster University studying Software Engineering under the supervision of [Dr. Mark Lawford](https://experts.mcmaster.ca/people/lawford) and [Dr. Alan Wassyng](https://www.cas.mcmaster.ca/~wassyng/). My research interests lie in safe autonomy: safe navigation, decision-making, and verification and validation of autonomous vehicles. 
+I am a 2nd year Master of Applied Science (MASc) student at McMaster University studying Software Engineering under the supervision of [Dr. Mark Lawford](https://experts.mcmaster.ca/people/lawford) and [Dr. Alan Wassyng](https://www.cas.mcmaster.ca/~wassyng/). 
+My research interests lie in safe autonomy: safe navigation, decision-making, and verification and validation of autonomous systems. 
 
 Currently, I am working on scenario-based validation for autonomous vehicles (AVs) using formal methods (temporal logic and automata) and scene graphs. I am also investigating frameworks that provide collision-avoidance guarantees for AVs such as Responsibility Sensitive Safety (RSS), and others that enable robot behaviour specification, like Rulebooks. My overarching career goal is to enable autonomous systems to navigate in unknown and dynamic environments without harming people or property.
 
